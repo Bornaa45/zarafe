@@ -1,0 +1,72 @@
+:root{
+    color-scheme: dark;
+}
+@font-face{
+    font-family: BYekan;
+    src: url(./BYekan+.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    animation: color 7s infinite linear;
+}
+.body-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-z{
+    width: 70vw;
+    height: 80vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 70px;
+    transition: rotate;
+    transition: 0.1s;
+}
+.img-z:active{
+    width:650px;
+    height: 620px;
+    top: 9px;
+    left: 30px;
+    right: 9px;
+    bottom: 9px;
+}
+@keyframes color {
+    0% {background:  #FF0000;}
+    15% {background: #FF4500;}
+    20% {background: #FFA500;}
+    25% {background: #FFD700;}
+    30% {background: #9ACD32;}
+    40% {background: #379956;}
+    50% {background: #66CDAA;}
+    60% {background: #40E0D0;}
+    70% {background: #4169E1;}
+    80% {background: #7B68EE;}
+    90% {background: #9932CC;}
+    100% {background:#FF0000;}
+}
+.h1{
+    position: fixed;
+    font-size: 8vw;
+    top: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 3px 2px;
+    /* font-family: BYekan; */
+    font-family: BYekan;
+}
+.span-b{
+    font-size: 13px;
+    position: fixed;
+    bottom: 5px;
+    left: 4px;
+    text-shadow: black 1.5px 1.5px ;
+    transition: 0.3s;
+}.span-b:hover{
+    color: rgb(159, 159, 159);
+}
